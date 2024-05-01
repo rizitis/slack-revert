@@ -15,7 +15,7 @@ The `slack-revert` command allows you to create and manage "snapshots" of the of
   - When prompted, enter "revert" and choose the desired snapshot date.
   - The command will download from [slackware.uk](https://slackware.uk/cumulative/) the correct versions of the required packages.
   - Before upgrading or downgrading, you will be prompted to confirm your choice.
-  - Also if some packages failed to download  they will appear in terminal screen 
+  - Also if some packages failed to download  they will appear in terminal screen. 
 
 ## Limitations
 1. `slack-revert` only works with officially installed Slackware packages. It does not support 3rd-party repositories (like SlackBuilds, Alien, etc.).
