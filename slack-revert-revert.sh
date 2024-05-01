@@ -93,7 +93,7 @@ BEGIN {
 wait
 
 
-# Read each line from 'finaly-url.txt'
+# Read each line from 'finaly-url.txt' and download packages.
 while IFS= read -r suburl; do
     wget -c "$URL""$suburl" || {
         echo "Error downloading $suburl" >> errors.txt
