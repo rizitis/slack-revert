@@ -2,7 +2,7 @@
 
 ## Overview
 The `slack-revert` command allows you to create and manage "snapshots" of the official package versions on your Slackware system. You can revert your system to any previously created snapshot, effectively rolling back to a specific date.
-- Supported Slackware- 32bit, 64bit,current
+- *Supported Slackware- 32bit, 64bit, stable and current*
 
 ## Usage
 - To create a snapshot of your current system:
@@ -13,7 +13,7 @@ The `slack-revert` command allows you to create and manage "snapshots" of the of
 - To revert to a specific snapshot:
   - Run `# slack-revert`.
   - When prompted, enter "revert" and choose the desired snapshot date.
-  - The command will download the correct versions of the required packages.
+  - The command will download from [slackware.uk](https://slackware.uk/cumulative/) the correct versions of the required packages.
   - Before upgrading or downgrading, you will be prompted to confirm your choice.
 
 ## Limitations
