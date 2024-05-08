@@ -23,6 +23,11 @@ The `slack-revert` command allows you to create and manage "snapshots" of the of
 1. `slack-revert` only works with officially installed Slackware packages. It does not support 3rd-party repositories (like SlackBuilds, Alien, etc.).
 2. Added support for /etc backup and revert in future is very risky, dont use it if you dont know what you are doing. 
 
+*For example you created a slackware-packages snapshot 1/1/2024 the same day a /etc backup.*
+*The corect revert-system action if you also need to revert /etc/{rc.d/,*conf} fileis to revert the exaclty day /etc backup also. BUT if you had *.conf.new in your backup and run slackpkg new-config, then new conf will replace current reverted conf files.*  
+So before you make a new slapshot for /etc be sure you dont have conf.new inside.
+If you need them install them, or remove them before you take the /etc backup.*
+
 ## Installation
 
 ```
