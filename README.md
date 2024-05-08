@@ -31,6 +31,7 @@ BUT if you had *.conf.new in your backup and run slackpkg new-config, then new c
 So before you make a new slapshot for /etc be sure you dont have conf.new inside.
 If you need them install them, or remove them before you take the /etc backup.
 ```
+3. Internet access needed for revert packages. 
 
 ## Installation
 
