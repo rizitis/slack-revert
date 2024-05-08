@@ -21,7 +21,7 @@ The `slack-revert` command allows you to create and manage "snapshots" of the of
 
 ## Limitations
 1. `slack-revert` only works with officially installed Slackware packages. It does not support 3rd-party repositories (like SlackBuilds, Alien, etc.).
-2. The command does not revert configuration files. It's up to you to manage your own configuration files, either by keeping the current ones or installing new ones (e.g., `conf.new`). Note that there are no "snapshot.conf" files to use. Future versions might address this limitation.
+2. Added support for /etc backup and revert in future is very risky, dont use it if you dont know what you are doing. 
 
 ## Installation
 
