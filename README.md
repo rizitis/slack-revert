@@ -10,6 +10,7 @@ The `slack-revert` command allows you to create and manage "snapshots" of the of
 - To create a snapshot of your current system:
   - Run `# slack-revert`. This will create a snapshot containing all officially installed package versions at the current time.
 - You can create as many snapshots as needed.
+- You can also take /etc backup if you ask yes.
 
 ### Reverting to a Snapshot
 - To revert to a specific snapshot:
